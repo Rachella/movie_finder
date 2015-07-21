@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Movie Database</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Movie Database">
+  <meta name="author" content="Rachel">
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="icon" href="images/favicon.ico">
+</html>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Movie Title Input -->
+    <div class="container">
+      <div class="row">
+        <div col="col-xs-10 col-xs-offset-1">
+          <div class="user-input">
+          <h1>Type in the Movie Title Below:</h1><br />
+          <input type="text" class="user-inputbox" name="movie-title" placeholder="Ex: The Shawshank Redemption">
+          </div>
+        </div>
+      </div> 
+    </div>  
+       
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1"> <div class="row">
+          <!-- Movie Poster -->
+          <section class="col-xs-6 movie-info">
+            <div class="movie-poster"></div>
+          </section>
+          <!-- Movie Info -->
+          <section class="col-xs-6 movie-info">
+            <div class="row">
+              <p class="col-xs-3 movie-title1"></p>     
+              <p class="col-xs-9 movie-title"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-year1"></p> 
+              <p class="col-xs-9 movie-year"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-rating1"></p> 
+              <p class="col-xs-9 movie-rating"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-released1"></p> 
+              <p class="col-xs-9 movie-released"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-genre1"></p> 
+              <p class="col-xs-9 movie-genre"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-director1"></p> 
+              <p class="col-xs-9 movie-director"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-writer1"></p> 
+              <p class="col-xs-9 movie-writer"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-actors1"></p> 
+              <p class="col-xs-9 movie-actors"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-language1"></p> 
+              <p class="col-xs-9 movie-language"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-country1"></p> 
+              <p class="col-xs-9 movie-country"></p>
+            </div>
+            <div class="row">
+              <p class="col-xs-3 movie-awards1"></p> 
+              <p class="col-xs-9 movie-awards"></p>
+            </div>
+          </section> 
+          </div>
+        </div>   
+      </div>          
+    </div>   
+    <!-- Jquery Script     -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+  </div>    
+</body>
+</html>
+

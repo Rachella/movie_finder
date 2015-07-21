@@ -1,0 +1,31 @@
+.user-input {
+  text-align: center;  
+}
+
+.user-inputbox {
+  width: 850px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: 25px;
+} 
+
+li {
+  list-style-type: none;
+}
+
+.movie-poster {
+  margin: 10px 55px; 
+}
+
+.movie-info {
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  font-style: Arial;
+}
+
+.movie-info > div > p:first-child {
+  color: #0404D7;
+  font-weight: 700;  
+}
